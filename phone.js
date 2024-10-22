@@ -91,13 +91,13 @@ let Mobile = function (battery, isOn, draftMessage, inbox, sentMessages) {
     }
 };
 //Vi du su dung lop Mobile
-let mobile1 = new Mobile();
-let mobile2 = new Mobile();
+let nokia = new Mobile();
+let iphone = new Mobile();
 
-mobile1.turnOn();
-mobile1.composeMessage('Hello');
-mobile1.sendMessage(mobile2);
-mobile2.turnOn();
-mobile2.viewInbox();
-mobile2.viewSentMessages();
-mobile1.viewSentMessages();
+nokia.turnOn();
+nokia.composeMessage('Hello');
+nokia.sendMessage(iphone);
+iphone.turnOn();
+iphone.viewInbox();
+iphone.viewSentMessages();
+nokia.viewSentMessages();
